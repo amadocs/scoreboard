@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <P>SOFTBALL: FINALS</P>
+    <div class="scoreboard">
+        <div class="softball-finals">
+            <h1>SOFTBALL: FINALS</h1>
+        </div>
+        <div class="flex-container">
+            <div class="team-container">
+                <h2 class="team-title-one">BLUE TEAM</h2>
+                <div class="one">
+                    <h4 class="points" id="t-blue-points"><span class="count-blue">0</span></h4>
+                    <p class="points-shadow">000</p>
+                </div>
+    
+                <div class="two">
+                <button id="one-point" onclick="addBlueOnePoint()">+1</button>
+                <button id="two-points" onclick="addBlueTwoPoints()">+2</button>
+                <button id="three-points" onclick="addBlueThreePoints">+3</button>
+                </div>
+            </div>
+            <div class="team-container">
+                <h2 class="team-title-two">RED TEAM</h2>
+    
+                <div class="one">
+                    <h4 class="points" id="t-green-points"><span class="count-red">0</span></h4>
+                    <p class="points-shadow">000</p>
+                </div>
+    
+                <div class="two">
+                        <button id="one-point" onclick="addGreenOnePoint()">+1</button>
+                        <button id="two-points" onclick="addGreenTwoPoints()">+2</button>
+                        <button id="three-points" onclick="addGreenThreePoints()">+3</button>
+                </div>
+            </div> 
+        </div>
+       
+
+        
+    </div>
+</div>
+<footer>
+    <p class="footer">Website made as part of the JavaScript module at <a href="https://www.tudublin.ie/">TU Dublin</a></p>
+ </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
